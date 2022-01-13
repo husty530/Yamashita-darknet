@@ -1,4 +1,4 @@
-# Yolo v4 on Google Colaboratory
+# YOLO v4 on Google Colaboratory
   
 当リポジトリではLinux環境(Google Colab)でのビルドを想定して、簡単にセットアップができるようにYOLOのソースコードを配置しています。  
 ブラウザさえあれば誰でも動かせますので、以下の手順でやってみましょう。  
