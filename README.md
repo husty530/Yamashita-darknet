@@ -1,10 +1,10 @@
 # YOLO v4 on Google Colaboratory
   
-当リポジトリではLinux環境(Google Colab)でのビルドを想定して、簡単にセットアップができるようにYOLOのソースコードを配置しています。  
+当リポジトリではLinux環境(Google Colab)でのビルドを想定して、簡単にセットアップができるようにDarknetビルドのYOLOv4ソースコードを配置しています。  
 ブラウザさえあれば誰でも動かせますので、以下の手順でやってみましょう。  
 
 ## つかいかた  
-1. [YOLOv4Training.ipynb](/YOLOv4-Training.ipynb)をDriveに置き、Google Colaboratoryで開きます。
+1. [YOLOv4-Training.ipynb](/YOLOv4-Training.ipynb)をDriveに置き、Google Colaboratoryで開きます。
 2. ランタイムのタイプを"GPU"に変更し、一番上のコードブロックで自分のDriveをマウントします。次行、そこにこのリポジトリをクローンしましょう。
 3. [workspace](/workspace)内にフォルダを作り、[pumpkin_640_480](/workspace/pumpkin_640_480)を参考に画像とラベルのフォルダを作ります。対応する画像とラベルの名前は必ず同じにしてください。
 4. [.names](/workspace/pumpkin_640_480/.names)を編集して、作成したフォルダに置きます。検出したいクラス数だけ改行しながらラベル名を書いてください。
